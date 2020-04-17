@@ -26,6 +26,7 @@ function checkAnswer() {
       alert('Well Done! You won');
       score = 0;
       backgroundImages = [];
+      document.body.style.backgroundImage = backgroundImages;
     }
   } else {
     if (score != 0) {score --;}
